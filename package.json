@@ -1,0 +1,27 @@
+{
+  "name": "nodejs.sports-store-api",
+  "version": "1.0.0",
+  "description": "Node.js RESTful API - Sports Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slepnev/nodejs.sports-store-api.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Slepnev Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slepnev/nodejs.sports-store-api/issues"
+  },
+  "homepage": "https://github.com/slepnev/nodejs.sports-store-api#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
