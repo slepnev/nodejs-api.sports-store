@@ -7,12 +7,11 @@ const mongoose = require('mongoose');
 const productRoutes = require("./api/routes/products");
 const orderRoutes = require("./api/routes/orders");
 
+// MongoDB connection
 mongoose.connect('mongodb://localhost:27017/sports-store', {});
-
 mongoose.connection.on("open", function(ref) {
   console.log("Connected to mongo server.");
 });
-
 mongoose.connection.on("error", function(err) {
   console.log("Could not connect to mongo server!");
 });
